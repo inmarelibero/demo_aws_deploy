@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: dev-inmarelibero
+global:
+  application_name: foo
+  default_ec2_keyname: id_rsa
+  default_platform: PHP 5.5
+  default_region: us-east-1
+  profile: eb-cli
+  sc: git
