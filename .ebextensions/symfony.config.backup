@@ -1,0 +1,8 @@
+commands:
+
+  01:
+    command: |
+      chmod -R 777 /var/www/html
+
+  02:
+    command: "rm /var/www/html/app/config/parameters.yml && ln -s /var/www/shared/app/config/parameters.yml /var/www/html/app/config/"
