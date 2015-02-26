@@ -1,6 +1,7 @@
 branch-defaults:
   master:
     environment: dev-inmarelibero
+
 global:
   application_name: foo
   default_ec2_keyname: id_rsa
