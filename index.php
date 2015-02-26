@@ -1,4 +1,1 @@
-beanstak is working!
-<br>
-
-<?php echo date('now'); ?>
+<?php echo date('Y-m-d H:i:s'); ?> => beanstak is working!
