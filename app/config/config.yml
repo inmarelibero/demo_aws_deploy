@@ -3,6 +3,9 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
 
+    # bundles
+    - { resource: stof/StofDoctrineExtensionsBundle/config.yml }
+
 framework:
     #esi:             ~
     #translator:      { fallbacks: ["%locale%"] }
